@@ -15,36 +15,38 @@
     meaning it can be seen anywhere within the function. Thus, 'i' is accessed after the loop ends with a value of 3.
     
     Question 2: The number '150' will be printed out. This is because 'var' gives a variable function scope 
-    meaning it can be seen anywhere within the function. Thus, 'discountedPrice' is accessed after the loop ends with a value of 150.
+    meaning it can be seen anywhere within the function. Thus, 'discountedPrice' is accessed after the loop ends with a value
+    of 150.
 
     Question 3: The number '150' will be printed out. This is because 'var' gives a variable function scope 
     meaning it can be seen anywhere within the function. Thus, 'finalPrice' is accessed after the loop ends with a value of 150.
 
-    Question 4: This function will return an array of ints representing the discounted prices from the input. Specifically, the output
-    would be [50, 100, 150]. This is because the loop just takes the inputs one by one and applies the 0.5 discount and does a round that
-    does nothing to the current inputs. These discounted results are stored in the discounted array and returned.
+    Question 4: This function will return an array of ints representing the discounted prices from the input. Specifically,
+    the output would be [50, 100, 150]. This is because the loop just takes the inputs one by one and applies the 0.5 discount
+    and does a round that does nothing to the current inputs. These discounted results are stored in the discounted array and
+    returned.
 
     Question 5: ERROR. Variable 'i' would be out of scope outside the for loop.
 
     Question 6: ERROR. Variable 'discountedPrice' would be out of scope outside the for loop.
 
-    Question 7: The number '150' will be printed out. This wount cause an error because the variable 'finalPrice' was created outside 
-    of the for loop given the variable the function scope, letting it be seen anywhere in the function. Thus, 'finalPrice' is accessed 
-    after the loop ends with a value of 150.
+    Question 7: The number '150' will be printed out. This wount cause an error because the variable 'finalPrice' was created
+    outside of the for loop given the variable the function scope, letting it be seen anywhere in the function. Thus,
+    'finalPrice' is accessed after the loop ends with a value of 150.
 
-    Question 8: This function will return an array of ints representing the discounted prices from the input. Specifically, the output
-    would be [50, 100, 150]. This is because the loop just takes the inputs one by one and applies the 0.5 discount and does a round that
-    does nothing to the current inputs. These discounted results are stored in the discounted array and returned.
+    Question 8: This function will return an array of ints representing the discounted prices from the input. Specifically, the 
+    output would be [50, 100, 150]. This is because the loop just takes the inputs one by one and applies the 0.5 discount and 
+    does a round that does nothing to the current inputs. These discounted results are stored in the discounted array and returned.
 
     Question 9: ERROR. Variable 'i' would be out of scope outside the for loop.
 
-    Question 10: The number '3' would be printed out. The constant variable 'length' would be printed out which is just equal to the size
-    of the array, that size being 3.
+    Question 10: The number '3' would be printed out. The constant variable 'length' would be printed out which is just equal to
+    the size of the array, that size being 3.
 
-    Question 11: This function will return an array of ints representing the discounted prices from the input. Specifically, the output
-    would be [50, 100, 150]. The fact that the variables are constants does not matter because a constant array data can still be modified.
-    The constant inside the for loop is fine because it gets reassigened every loop cycle. These discounted results are stored in the
-    discounted array and returned.
+    Question 11: This function will return an array of ints representing the discounted prices from the input. Specifically,
+    the output would be [50, 100, 150]. The fact that the variables are constants does not matter because a constant array data
+    can still be modified. The constant inside the for loop is fine because it gets reassigened every loop cycle. These discounted
+    results are stored in the discounted array and returned.
 
     Question 12: 
         
@@ -74,11 +76,15 @@
         E) false. true is represented as 1 which is not equal to 2.
         F) true. true is evaluated to 1 and Boolean(2) is evaluated to true because a Boolean convertion of any int but 0 is true.
 
-    Question 15: The == is the equality operator that performs the standard equality test comparing if two values are equal while converting the data type to an equal type. The === is the string equality operator that performs an equality check without type conversion.
+    Question 15: The == is the equality operator that performs the standard equality test comparing if two values are equal while
+    converting the data type to an equal type. The === is the string equality operator that performs an equality check without type
+    conversion.
 
     Question 16: ** In the corresponding .js file **
 
-    Question 17: The function modify array would return the array [2, 4, 6]. First I noticed that the callback variable in the modify array function is a reference to the doSomething function. The for loop loops through the array and at each index multiplies that value by 2 in the doSomething function then returns that array.
+    Question 17: The function modify array would return the array [2, 4, 6]. First I noticed that the callback variable in the modify
+    array function is a reference to the doSomething function. The for loop loops through the array and at each index multiplies
+    that value by 2 in the doSomething function then returns that array.
 
     Question 18: ** In the corresponding .js file **
 
